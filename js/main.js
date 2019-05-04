@@ -38,11 +38,11 @@ function initRenderer() {
 
 function drawScene() {
     var material = new THREE.MeshPhongMaterial({ color: 0xFF6600, emissive: 0x111111, emissiveIntensity: 0.75, shininess: 30, specular: 0x111111 });
-    var shape = new THREE.CubeGeometry(1, 1, 1);
+    var shape = new THREE.SphereGeometry(0.1, 40, 40);
     cube = new THREE.Group();
-    for (var a = -11; a <= 11; a = a + 2) {
-        for (var b = -11; b <= 11; b = b + 2) {
-            for (var c = -11; c <= 11; c = c + 2) {
+    for (var a = -33; a <= 33; a = a + 2) {
+        for (var b = -33; b <= 33; b = b + 2) {
+            for (var c = -33; c <= 33; c = c + 2) {
                 var part = new THREE.Mesh(shape, material);
                 part.position.set(a, b, c);
                 cube.add(part);
