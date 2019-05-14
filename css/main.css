@@ -75,7 +75,7 @@
         width: 100%;
         height: 1px;
         z-index: -1;
-        background: #FF6600;
+        background: #0099FF;
     }
     ul {
         padding: 0 0;
@@ -121,7 +121,7 @@
         text-shadow: 1.25px 0px 0px #414f57, -1.25px 0px 0px #414f57, 0px 1.25px 0px #414f57, 0px -1.25px 0px #414f57;
     }
     ul.icons li a:hover:before {
-        text-shadow: 1.25px 0px 0px #FF6600, -1.25px 0px 0px #FF6600, 0px 1.25px 0px #FF6600, 0px -1.25px 0px #FF6600;
+        text-shadow: 1.25px 0px 0px #FF4466, -1.25px 0px 0px #FF4466, 0px 1.25px 0px #FF4466, 0px -1.25px 0px #FF4466;
     }
     ul.icons li a:before {
         position: absolute;
@@ -135,28 +135,28 @@
         text-indent: 0;
     }
     ul.icons li a:hover {
-        border-color: #FF6600;
+        border-color: #FF4466;
     }
     ul.copyright li {
         padding-bottom: 1.25em;
     }
     ul.copyright li a {
         text-decoration: none;
-        color: #414f57;
+        color: #0099ff;
         font-family: "Source Sans Pro", Helvetica, sans-serif;
         font-size: 0.60em;
     }
     ul.copyright li a:before {
-        color: #414f57;
+        color: #0099ff;
     }
     ul.copyright li a:hover:before {
-        color: #FF6600;
+        color: #FF4466;
     }
     ul.copyright li a:before {
-        color: #414f57;
+        color: #0099ff;
     }
     ul.copyright li a:hover {
-        color: #FF6600;
+        color: #FF4466;
     }
 }
 @media screen and (min-width: 421px) {
@@ -232,7 +232,7 @@
         width: 100%;
         height: 1px;
         z-index: -1;
-        background: #FF6600;
+        background: #0099FF;
     }
     ul {
         padding: 0 0;
@@ -278,7 +278,7 @@
         text-shadow: 1.25px 0px 0px #414f57, -1.25px 0px 0px #414f57, 0px 1.25px 0px #414f57, 0px -1.25px 0px #414f57;
     }
     ul.icons li a:hover:before {
-        text-shadow: 1.25px 0px 0px #FF6600, -1.25px 0px 0px #FF6600, 0px 1.25px 0px #FF6600, 0px -1.25px 0px #FF6600;
+        text-shadow: 1.25px 0px 0px #FF4466, -1.25px 0px 0px #FF4466, 0px 1.25px 0px #FF4466, 0px -1.25px 0px #FF4466;
     }
     ul.icons li a:before {
         position: absolute;
@@ -292,27 +292,27 @@
         text-indent: 0;
     }
     ul.icons li a:hover {
-        border-color: #FF6600;
+        border-color: #FF4466;
     }
     ul.copyright li {
         padding-bottom: 1.25em;
     }
     ul.copyright li a {
         text-decoration: none;
-        color: #414f57;
+        color: #0099ff;
         font-family: "Source Sans Pro", Helvetica, sans-serif;
         font-size: 0.75em;
     }
     ul.copyright li a:before {
-        color: #414f57;
+        color: #0099ff;
     }
     ul.copyright li a:hover:before {
-        color: #FF6600;
+        color: #FF4466;
     }
     ul.copyright li a:before {
-        color: #414f57;
+        color: #0099ff;
     }
     ul.copyright li a:hover {
-        color: #FF6600;
+        color: #FF4466;
     }
 }
